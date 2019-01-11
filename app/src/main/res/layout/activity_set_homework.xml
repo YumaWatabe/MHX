@@ -9,25 +9,26 @@
 
     <Button
         android:id="@+id/camera_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_width="514dp"
+        android:layout_height="93dp"
         android:text="カメラ起動"
-        app:layout_constraintVertical_bias="0.2"
+        android:textSize="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/image_view"
-        android:scaleType="fitCenter"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        app:layout_constraintVertical_bias="0.7"
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="306dp"
+        android:layout_height="59dp"
+        android:text="スキップ"
+        android:textSize="24dp"
+        android:textColor="#444444"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
 
 </android.support.constraint.ConstraintLayout>
